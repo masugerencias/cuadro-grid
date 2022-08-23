@@ -1,0 +1,270 @@
+body {
+    background: wheat;
+}
+
+.cuadradote {
+    display: grid;
+    grid-template-columns: 80px 120px 100px 100px 100px 100px 100px 50px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+
+}
+
+.hijo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    border: solid black;
+
+
+}
+
+.hijo3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    border: solid black;
+
+
+}
+
+.hijo4{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo5{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    background-color: white;
+        border: solid black;
+
+}
+.hijo6{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    background-color: yellow;
+    border: solid black;
+
+}
+.hijo7{
+    grid-column-start:3 ;
+    grid-column-end:7 ;
+    grid-row-start:2 ;
+    grid-row-end: 6;
+    background-color: crimson;
+    border: solid black;
+
+}
+.hijo8{
+    grid-column-start:7 ;
+    grid-column-end:8 ;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    background-color: blue;
+    border: solid black;
+
+}
+.hijo9{
+    grid-column-start:8 ;
+    grid-column-end:9 ;
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    background-color: white;
+    border: solid black;
+
+}
+.hijo10{
+    grid-column-start:1 ;
+    grid-column-end:3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo11{
+    grid-column-start:7 ;
+    grid-column-end:8 ;
+    grid-row-start:4 ;
+    grid-row-end: 6;
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo12{
+    grid-column-start:8 ;
+    grid-column-end:9 ;
+    grid-row-start:4 ;
+    grid-row-end: 6;
+    background-color: white;
+    border: solid black;
+
+}
+
+
+.hijo13{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:6 ;
+    grid-row-end: 8;
+    background-color: blue;
+    border: solid black;
+
+
+}
+
+.hijo14{
+    grid-column-start:3 ;
+    grid-column-end:5 ;
+    grid-row-start:6 ;
+    grid-row-end: 7;
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo15{
+    grid-column-start:5 ;
+    grid-column-end:7 ;
+    grid-row-start:6 ;
+    grid-row-end: 7;
+    background-color: black;
+    border: solid black;
+
+}
+
+.hijo16{
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    grid-row-start:6 ;
+    grid-row-end: 8;
+    background-color: white;
+    border: solid black;
+
+
+}
+
+.hijo17{
+
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:8 ;
+    grid-row-end: 9;
+    background-color: white;
+    border: solid black;
+
+    
+}
+
+.hijo18{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:8 ;
+    grid-row-end: 9;
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo19{
+    grid-column-start:3 ;
+    grid-column-end:5 ;
+    grid-row-start:7 ;
+    grid-row-end: 9;
+    background-color: black
+}
+
+.hijo20{
+    grid-column-start:5 ;
+    grid-column-end:7 ;
+    grid-row-start:7 ;
+    grid-row-end: 9;
+    background-color: white;
+    border: solid black;
+
+}
+
+.hijo21{
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    grid-row-start:8 ;
+    grid-row-end: 9;
+    background-color: red;
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid black;
+
+
+
+}
+
+.hijo22{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    grid-row-start:9 ;
+    grid-row-end: 10;
+    background-color: white;
+    border: solid black;
+
+
+}
+.hijo23{
+    grid-column-start:3 ;
+    grid-column-end:5 ;
+    grid-row-start:9 ;
+    grid-row-end: 10;
+    background-color: white;
+    border: solid black;
+
+
+}
+.hijo24{
+    grid-column-start:5 ;
+    grid-column-end:7 ;
+    grid-row-start:9 ;
+    grid-row-end: 10;
+    background-color: yellow;
+    border: solid black;
+
+
+}
+
+.hijo25{
+    grid-column-start:7 ;
+    grid-column-end:9 ;
+    grid-row-start:9 ;
+    grid-row-end: 10;
+    background-color: red;
+    border-bottom: solid black;
+    border-right: solid black;
+    border-left: solid black;
+
+
+}
